@@ -28,7 +28,6 @@ import java.util.List;
 	  @Autowired
 	  private PetsRepository repository;
 	  
-	  //private final Logger logger = LoggerFactory.getLogger(this.getClass());
 	  private static final Logger LOGGER = LogManager.getLogger(PetsController.class.getName());
 	     
 	  
