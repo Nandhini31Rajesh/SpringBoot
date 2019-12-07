@@ -1,13 +1,14 @@
 package com.example.demo.models;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+@Document(collection="Demo")
 
 public class Pets {
 
 	@Id
 	  public ObjectId _id;
-	  
-	  public String name;
+      public String name;
 	  public String species;
 	  public String breed;
 	  
